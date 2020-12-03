@@ -87,8 +87,6 @@ a:hover {
   color: var(--my-pink);
 }
 
-
-
 /* this code makes navbar apear on hover */
 /*
 .navbar .nav-item .dropdown-menu {
@@ -107,15 +105,13 @@ a:hover {
   margin-top: 0;
 }
  */
-
-
 .dropdown-menu {
   min-width: 0.5rem;
   padding: 0;
   background-color: black;
   border: none;
   margin-top: 0
-  /* display:block;
+    /* display:block;
   opacity: 0;
   visibility: hidden;
   transition: 0.3s; */
@@ -125,7 +121,6 @@ a:hover {
   background-color: black;
   /* margin-top: 0;
   border-top: 0; */
-
 }
 
 .white-hamburger {
@@ -145,8 +140,6 @@ a:hover {
   color: var(--my-pink);
   background-color: black;
 }
-
-
 
 .navbar-brand {
   opacity: 0;
@@ -243,13 +236,18 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 /* ABOUT */
 .about-img {
-  width: 27rem;
+  width: 94%;
+  /* height: 28.5rem; */
+  /* text-align: right;
+  margin-right: 0; */
+  border-radius: 0.2rem;
   /* box-shadow:         2px 2px 4px 5px rgba(0, 0, 0, 0.2);  */
 }
 
 .about-text {
   text-align: left;
   margin-top: 0;
+  margin-left: 0;
 }
 
 .about-row {
@@ -259,14 +257,19 @@ a:hover {
   float: none; */
 }
 
-
-
 /* -------------------------------------------------------------------------- */
 /* FOOTER */
 .social-footer {
   background-color: black;
   padding: 1.2rem 1rem;
   text-align: right;
+
+
+
+  clear: both;
+  position: relative;
+  height: 3.6rem;
+  margin-top: -3.6rem;
 }
 
 .social-footer i {
@@ -307,33 +310,33 @@ a:hover {
   line-height: 2;
 }
 
-.contact-input:hover{
+.contact-input:hover {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
-
-
 }
 
 .message-input {
   height: 6.5rem;
-  padding-top:1rem;
+  padding-top: 1rem;
   padding-left: 1rem;
   line-height: 1.2;
-
 }
 
-
 .contact-section {
-  padding: 2rem 15rem 8rem;
+  padding: 0 18rem 8rem;
   font-family: 'Lato', sans-serif;
 }
 
+.icons-row {
+  padding: 0 23% 0;
+}
+
 .contact-little-div-top {
+  display: block;
   margin-top: 1.3rem !important;
 }
 
-.contact-little-div{
-  margin-top: 2.7rem !important;
-
+.contact-little-div {
+  margin-top: 2rem !important;
 }
 
 .contact-little-text {
@@ -344,11 +347,11 @@ a:hover {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-color: var(--my-pink);
 }
+
 .contact-btn:hover {
   background-color: var(--my-pink);
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
-
 
 .contact-btn {
   background-color: black;
@@ -358,10 +361,7 @@ a:hover {
   font-weight: 400;
   line-height: 1.5;
   margin-top: 3rem;
-
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*   MEDIA CHANGES */
@@ -375,9 +375,7 @@ a:hover {
     margin-top: 3rem !important;
   }
 
-  .contact-little-div{
+  .contact-little-div {
     margin-top: 1rem !important;
-
   }
-
 }

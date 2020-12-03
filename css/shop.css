@@ -16,6 +16,21 @@
   width: 25rem;
 }
 
+
+.shop-description{
+  /* padding: 0 3%; */
+  padding: 0 0;
+  /* width: 90% !important; */
+  /* margin: 0; */
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+
+}
+
 .see-icon {
   margin-right: 0.5rem;
 }
