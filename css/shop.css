@@ -18,22 +18,53 @@
 
 
 .shop-description{
-  /* padding: 0 3%; */
+  display: none;
   padding: 0 0;
-  /* width: 90% !important; */
-  /* margin: 0; */
-  text-align: left;
-  font-family: 'Lato', sans-serif;
-  line-height: 1;
+  margin: 2rem auto;
+  max-width: 90%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.3;
   font-size: 1.5rem;
-  font-weight: 400;
-
-
 }
+
 
 .see-icon {
   margin-right: 0.5rem;
 }
+
+
+.abuot-shop-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Dosis', sans-serif;
+  width: 15rem;
+  background-color: black ;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0.5rem auto 2rem;
+
+
+}
+
+
+
+
+
+.abuot-shop-btn:hover, .abuot-shop-btn:focus {
+  background-color: var(--my-pink);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
 
 
 /* GENERAL MODAL*/
@@ -249,14 +280,13 @@
 }
 
 .info-inner .p-name {
-  font-family: 'Lato', sans-serif;
-
-  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
   color: #252525;
 }
 
 .info-inner .p-company {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dosis', sans-serif;
 
   font-size: 12px;
   text-transform: uppercase;
@@ -277,7 +307,7 @@
   position: absolute;
   width: 100%;
   bottom: -20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dosis', sans-serif;
 
   color: #828282;
   opacity: 0;
@@ -297,7 +327,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dosis', sans-serif;
 
   font-weight: 700;
   cursor: pointer;
@@ -518,7 +548,7 @@
     margin-bottom: 0.5rem;
     width: 17rem;
     max-width: 100%;
-    font-family: inherit;
+    font-family: 'Dosis', sans-serif;
     margin-right: 0.35rem;
     transition: all 0.3s ease;
     font-weight: 500;

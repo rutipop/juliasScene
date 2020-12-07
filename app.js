@@ -72,9 +72,9 @@ $(document).ready(function() {
 
 
 
-//-----------------------------------------------------------------------------
-// HANDALING MODALS:
-//-----------------------------------------------------------------------------
+  //-----------------------------------------------------------------------------
+  // HANDALING MODALS:
+  //-----------------------------------------------------------------------------
 
 
   const openModalButtons = document.querySelectorAll('[data-modal-target]')
@@ -134,6 +134,30 @@ $(document).ready(function() {
   //-----------------------------------------------------------------------------
   //-----------------------------------------------------------------------------
   //-----------------------------------------------------------------------------
+
+  // READ ABOUT SHOP TOGGLER:
+  $(".read-shop-btn").click(function() {
+    $("#apparel-description").slideToggle("slow");
+  });
+
+
+  $(".read-art-btn").click(function() {
+    $("#art-description").slideToggle("slow");
+  });
+
+
+
+  //VIDEO ART PAGE:
+
+  $('.video-gallery').magnificPopup({
+    delegate: 'a',
+    type: 'iframe',
+    gallery: {
+      enabled: true
+    }
+  });
+
+
 
 
 

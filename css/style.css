@@ -29,6 +29,7 @@ p {
 .seperator {
   background-color: white;
   height: 8rem;
+
 }
 
 .small-seperator {
@@ -263,9 +264,6 @@ a:hover {
   background-color: black;
   padding: 1.2rem 1rem;
   text-align: right;
-
-
-
   clear: both;
   position: relative;
   height: 3.6rem;
@@ -346,9 +344,15 @@ a:hover {
 .contact-input:focus {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-color: var(--my-pink);
+
 }
 
 .contact-btn:hover {
+  background-color: var(--my-pink);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.contact-btn:focus {
   background-color: var(--my-pink);
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
