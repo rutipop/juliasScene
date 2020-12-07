@@ -367,6 +367,71 @@ a:hover {
   margin-top: 3rem;
 }
 
+
+
+
+
+
+
+.gallery-container {
+  display: flex;
+  width: 100%;
+  padding: 4% 12%;
+  box-sizing: border-box;
+  /* height: 35rem; */
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .6s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+}
+
+.box > img {
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
+  transition: .6s;
+}
+
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  /* width: 25rem; */
+  height: 30rem;
+  margin-right: 10px;
+  background: blue;
+  counter-increment: gallery-cell;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------------------------------------- */
 /*   MEDIA CHANGES */
 @media (max-width:950px) {
