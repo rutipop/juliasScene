@@ -111,7 +111,8 @@ $(document).ready(function() {
     button.addEventListener('click', () => {
       const modal = button.closest('.my-modal')
       closeModal(modal)
-      window.location.href = "index.html#contact";
+
+      window.open("https://api.whatsapp.com/send?phone=972528899773", '_blank');
 
 
     })

@@ -198,11 +198,17 @@ a:hover {
   text-align: center;
 }
 
-.title-header span {
+.title-header .big-span {
   display: block;
   font-size: 6.2rem;
   font-weight: bold;
   letter-spacing: 1.8rem;
+}
+
+.title-header .small-span {
+  display: block;
+  font-size: 1rem;
+
 }
 
 /* -------------------------------------------------------------------------- */
@@ -411,14 +417,15 @@ a:hover {
 
 
 .gallery {
-  background: #EEE;
+  background: white;
+  margin: auto 10%;
 }
 
 .gallery-cell {
   /* width: 25rem; */
   height: 30rem;
   margin-right: 10px;
-  background: blue;
+  background: white;
   counter-increment: gallery-cell;
 }
 

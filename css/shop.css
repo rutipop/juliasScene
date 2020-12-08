@@ -14,11 +14,17 @@
   margin-right: auto;
   /* transform: scale(0.6); */
   width: 25rem;
+  /* width: 30rem; */
+}
+
+.art-logo{
+  width: 40rem;
+  margin-bottom: 0;
 }
 
 
 .shop-description{
-  display: none;
+  /* display: none; */
   padding: 0 0;
   margin: 2rem auto;
   max-width: 90%;
