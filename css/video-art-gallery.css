@@ -13,18 +13,17 @@ body {
   max-width: 62.5rem;
   text-align: center;
   height: 35rem;
+  float: center;
   /* background-color: pink */
 }
 
 .video-gallery .gallery-item {
   position: relative;
-  float: left;
+  float: center;
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 20rem;
-  max-width: 36.25rem;
-  max-height: 22.5rem;
-  width: 48%;
+  margin: 2rem auto;
+  min-width: 30rem;
+  max-width: 39rem;
   background: #000;
   cursor: pointer;
 }
@@ -44,7 +43,7 @@ body {
   padding: 2em;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .video-gallery .gallery-item .gallery-item-caption,
@@ -72,7 +71,7 @@ body {
 
 .video-gallery .gallery-item p {
   letter-spacing: 1px;
-  font-size: 68%;
+  font-size: 80%;
 
   padding: 1em 0;
   opacity: 0;

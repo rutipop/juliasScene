@@ -10,7 +10,10 @@ main {
   position: relative;
   margin-top: 100vh;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 p {
@@ -243,25 +246,23 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 /* ABOUT */
 .about-img {
-  width: 94%;
-  /* height: 28.5rem; */
-  /* text-align: right;
-  margin-right: 0; */
-  border-radius: 0.2rem;
+  width: 28rem;
+  /* padding: 2rem; */
+  border-radius: 1rem;
   /* box-shadow:         2px 2px 4px 5px rgba(0, 0, 0, 0.2);  */
 }
 
 .about-text {
+  max-width: 55%;
   text-align: left;
-  margin-top: 0;
-  margin-left: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-.about-row {
-  padding: 3% 15%;
-  /* display:inline-block;
-  vertical-align: middle;
-  float: none; */
+.highlited-text{
+  font-weight: 900;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -299,6 +300,13 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /* CONTACT SECTION */
+
+
+
+
+
+
+
 .input-col-right {
   padding-right: 1rem;
 }
@@ -326,8 +334,14 @@ a:hover {
 }
 
 .contact-section {
-  padding: 0 18rem 8rem;
-  font-family: 'Lato', sans-serif;
+  width: 60%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8rem;
+  font-weight: 500;
+  /* font-family: 'Dosis', sans-serif; */
 }
 
 .icons-row {

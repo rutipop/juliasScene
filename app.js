@@ -148,7 +148,7 @@ $(document).ready(function() {
 
 
 
-  //VIDEO ART PAGE:
+  //DANCE ART PAGE:
 
   $('.video-gallery').magnificPopup({
     delegate: 'a',
