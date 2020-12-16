@@ -5,25 +5,24 @@ body {
 
 
 #gallery-content{
-  margin : 5rem auto;
+  margin : 8rem auto;
 }
 
 .video-gallery {
-  margin: 3rem auto 7rem ;
+  margin: 6rem auto 7rem ;
   max-width: 62.5rem;
   text-align: center;
   height: 35rem;
   float: center;
-  /* background-color: pink */
 }
 
 .video-gallery .gallery-item {
   position: relative;
   float: center;
   overflow: hidden;
-  margin: 2rem auto;
-  min-width: 30rem;
-  max-width: 39rem;
+  margin: 3rem auto;
+  min-width: 50%;
+  max-width: 55%;
   background: #000;
   cursor: pointer;
 }
@@ -118,4 +117,19 @@ body {
     margin: 10px auto;
     width: 100%;
   }
+}
+
+
+
+
+
+
+@media (max-width:990px){
+
+
+  .video-gallery .gallery-item {
+    max-width: 80%;
+  }
+
+
 }

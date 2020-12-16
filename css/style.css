@@ -11,7 +11,7 @@ main {
   margin-top: 100vh;
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.2;
 }
@@ -381,7 +381,7 @@ a:hover {
   background-color: black;
   color: white;
   border: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
   margin-top: 3rem;
@@ -489,19 +489,19 @@ a:hover {
   }
 
   .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
 
   .about-text {
     max-width: 90%;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
 
   #contact p{
-    font-size: 1.5rem;
-
+    font-size: 3rem;
+    max-width: 90%;
   }
 
   /* .icons-row {
@@ -509,14 +509,17 @@ a:hover {
   } */
 
   .contact-section {
-    font-size: 1.5rem;
+    font-size: 3rem;
     width: 90%;
   }
 
 
-.contact-btn{
-  font-size: 1.5rem;
-}
+  .contact-btn {
+
+    font-size: 3rem;
+    margin-top: 3rem;
+    /* margin-left: 0; */
+  }
 
 .social-footer i {
   font-size: 2.5rem;
@@ -525,7 +528,29 @@ a:hover {
 .social-footer {
   padding: 1.7rem 1rem;
   height:5rem;
-  margin-top: -5rem;
+  margin-top: -1rem;
+}
+
+
+
+
+.contact-input {
+  width: 40rem;
+  border: 3px solid black;
+  margin-top: 3rem;
+
+}
+
+
+.contact-little-text {
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+.message-input {
+  height: 9rem;
 }
 
 
