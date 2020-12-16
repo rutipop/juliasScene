@@ -349,7 +349,8 @@ a:hover {
 }
 
 .icons-row {
-  padding: 0 23% 0;
+  padding: 2rem 23% 3rem ;
+  color: black;
 }
 
 
@@ -504,9 +505,9 @@ a:hover {
     max-width: 90%;
   }
 
-  /* .icons-row {
-    padding: 1.5rem;
-  } */
+  .icons-row {
+    padding: 6rem;
+  }
 
   .contact-section {
     font-size: 3rem;
@@ -522,13 +523,14 @@ a:hover {
   }
 
 .social-footer i {
-  font-size: 2.5rem;
+  font-size: 5rem;
+  margin: 0 3rem;
 }
 
 .social-footer {
-  padding: 1.7rem 1rem;
-  height:5rem;
-  margin-top: -1rem;
+  text-align: center;
+  padding: 3rem 1rem;
+  height:11rem;
 }
 
 
@@ -536,7 +538,7 @@ a:hover {
 
 .contact-input {
   width: 40rem;
-  border: 3px solid black;
+  border: 2px solid black;
   margin-top: 3rem;
 
 }
