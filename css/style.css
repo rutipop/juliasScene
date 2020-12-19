@@ -32,7 +32,6 @@ p {
 .seperator {
   background-color: white;
   height: 8rem;
-
 }
 
 .small-seperator {
@@ -80,7 +79,7 @@ hr.activated {
   padding: 0 1rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding: 1rem;
 }
 
@@ -215,7 +214,6 @@ a:hover {
 .title-header .small-span {
   display: block;
   font-size: 1rem;
-
 }
 
 /* -------------------------------------------------------------------------- */
@@ -265,7 +263,7 @@ a:hover {
   line-height: 1.2;
 }
 
-.highlited-text{
+.highlited-text {
   font-weight: 900;
 }
 
@@ -304,13 +302,6 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /* CONTACT SECTION */
-
-
-
-
-
-
-
 .input-col-right {
   padding-right: 1rem;
 }
@@ -349,14 +340,12 @@ a:hover {
 }
 
 .icons-row {
-  padding: 2rem 10rem ;
+  padding: 2rem 10rem;
   color: black;
 }
 
-
 .contact-little-div {
   margin-top: 2rem !important;
-
 }
 
 .contact-little-text {
@@ -366,7 +355,6 @@ a:hover {
 .contact-input:focus {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-color: var(--my-pink);
-
 }
 
 .contact-btn:hover {
@@ -389,22 +377,16 @@ a:hover {
   margin-top: 2rem;
 }
 
-
-.email-link{
+.email-link {
   text-decoration: none;
   color: black;
 }
 
-.email-link:hover, .email-link:focus{
+.email-link:hover, .email-link:focus {
   text-decoration: none;
 }
 
-
-
-
 /* GALLERY */
-
-
 .gallery-container {
   display: flex;
   width: 100%;
@@ -418,29 +400,24 @@ a:hover {
   overflow: hidden;
   transition: .6s;
   margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
 }
 
-.box > img {
+.box>img {
   width: 200%;
   height: 100%;
   object-fit: cover;
   transition: .6s;
 }
 
+.box:hover {
+  flex: 1 1 50%;
+}
 
-.box:hover { flex: 1 1 50%; }
-.box:hover > img {
+.box:hover>img {
   width: 100%;
   height: 100%;
 }
-
-
-
-
-
-
-
 
 .gallery {
   background: white;
@@ -455,89 +432,60 @@ a:hover {
   counter-increment: gallery-cell;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* -------------------------------------------------------------------------- */
 /*   MEDIA CHANGES */
-@media (max-width:990px)
- {
+@media (max-width:990px) {
+  .viewport-header .title-header {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    margin-right: -1rem;
+  }
 
-   .viewport-header .title-header{
-     font-size: 4rem;
-     letter-spacing: 0.5rem;
-     margin-right: -0.5rem;
+  .viewport-header .big-span {
+    font-size: 10rem;
+    letter-spacing: 4rem;
+    margin-right: -3rem;
+  }
 
-
-   }
-
-   .viewport-header .big-span{
-     font-size: 10rem;
-     letter-spacing: 4rem;
-     margin-right: -4rem;
-
-
-   }
-
-   .viewport-header .small-span{
-     font-size: 3rem;
-     letter-spacing: 0.1rem;
-     margin-right: -0.1rem;
-
-
-   }
-
-
+  .viewport-header .small-span {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+  }
 
   .about-img {
     padding-top: 2rem;
     width: 25rem;
   }
 
-
-
-.navbar-toggler{
-  font-size: 2.3rem
-}
+  .navbar-toggler {
+    font-size: 2.3rem;
+  }
 
   .category-title {
     font-size: 4rem;
   }
-
 
   .nav-link {
     font-size: 5rem;
     margin: 2rem auto;
   }
 
-
-
-
   .dropdown-item {
     font-size: 3rem;
     margin: 1.5rem auto;
-
   }
 
   .navbar-brand {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    padding-left: 1rem;
   }
-
 
   .about-text {
     max-width: 90%;
     font-size: 3rem;
   }
 
-
-  #contact p{
+  #contact p {
     font-size: 3rem;
     /* max-width: 90%; */
   }
@@ -551,56 +499,36 @@ a:hover {
     width: 90%;
   }
 
-
   .contact-btn {
-
     font-size: 3rem;
     margin-top: 3rem;
     /* margin-left: 0; */
   }
 
-.social-footer i {
-  font-size: 4rem;
-  margin: 0 3rem;
-}
+  .social-footer i {
+    font-size: 4rem;
+    margin: 0 3rem;
+  }
 
-.social-footer {
-  text-align: center;
-  padding: 3rem 1rem;
-  height:9rem;
-}
+  .social-footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    height: 9rem;
+  }
 
+  .contact-input {
+    width: 40rem;
+    border: 2px solid black;
+    margin-top: 3rem;
+  }
 
+  .contact-little-text {
+    margin-top: 1rem;
+    text-align: center;
+    max-width: 100%;
+  }
 
-
-.contact-input {
-  width: 40rem;
-  border: 2px solid black;
-  margin-top: 3rem;
-
-}
-
-
-.contact-little-text {
-  margin-top: 1rem;
-  text-align: center;
-  max-width: 100%;
-}
-
-
-.message-input {
-  height: 9rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+  .message-input {
+    height: 9rem;
+  }
 }

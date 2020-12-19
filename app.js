@@ -8,7 +8,16 @@
 
 $(document).ready(function() {
 
+// ------------------------------------------------------------------------
+// NAVBAR:
 
+  $('.navbar-nav>li>.same-page').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+// ------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------
+// SEND EMAIL:
 
   $('#send-contact').click(function(){
     var subject_input= $('#subject').val();
@@ -22,6 +31,13 @@ $(document).ready(function() {
                                + encodeURIComponent("This message was sent from the julia's scene site by:\n"+ name_input+ "\nand the message is:\n" +msg_input)
       );
   });
+
+  // ------------------------------------------------------------------------
+
+
+
+
+
   //-----------------------------------------------------------------------------
   // HANDALING SCROLL CHANGES:
   //-----------------------------------------------------------------------------
