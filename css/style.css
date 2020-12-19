@@ -320,8 +320,8 @@ a:hover {
 }
 
 .contact-input {
-  width: 100%;
-  /* width: 10rem; */
+  /* width: 100%; */
+  width: 25rem;
   margin-top: 1rem;
   line-height: 2;
 }
@@ -349,13 +349,14 @@ a:hover {
 }
 
 .icons-row {
-  padding: 2rem 23% 3rem ;
+  padding: 2rem 10rem ;
   color: black;
 }
 
 
 .contact-little-div {
   margin-top: 2rem !important;
+
 }
 
 .contact-little-text {
@@ -385,13 +386,23 @@ a:hover {
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+
+.email-link{
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:hover, .email-link:focus{
+  text-decoration: none;
 }
 
 
 
 
-
+/* GALLERY */
 
 
 .gallery-container {
@@ -464,12 +475,6 @@ a:hover {
   }
 
 
-  .contact-little-div {
-    margin-top: 2rem !important;
-  }
-
-
-
   .category-title {
     font-size: 4rem;
   }
@@ -502,7 +507,7 @@ a:hover {
 
   #contact p{
     font-size: 3rem;
-    max-width: 90%;
+    /* max-width: 90%; */
   }
 
   .icons-row {
@@ -523,14 +528,14 @@ a:hover {
   }
 
 .social-footer i {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0 3rem;
 }
 
 .social-footer {
   text-align: center;
   padding: 3rem 1rem;
-  height:11rem;
+  height:9rem;
 }
 
 

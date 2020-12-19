@@ -1,4 +1,14 @@
+// const bodyParser = require("body-parser")
+// const request = require("request");
+//
+// app.use(bodyParser.urlencoded({
+//   extended: true
+// }))
+
+
 $(document).ready(function() {
+
+
 
   //-----------------------------------------------------------------------------
   // HANDALING SCROLL CHANGES:
