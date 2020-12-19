@@ -10,6 +10,18 @@ $(document).ready(function() {
 
 
 
+  $('#send-contact').click(function(){
+    var subject_input= $('#subject').val();
+    var msg_input= $('#msg').val();
+    var name_input= $('#name-contacter').val();
+
+
+      $(location).attr('href', 'mailto:juliagalyacohenart@gmail.com?subject='
+                               + encodeURIComponent(subject_input)
+                               + "&body="
+                               + encodeURIComponent("This message was sent from the julia's scene site by:\n"+ name_input+ "\nand the message is:\n" +msg_input)
+      );
+  });
   //-----------------------------------------------------------------------------
   // HANDALING SCROLL CHANGES:
   //-----------------------------------------------------------------------------
@@ -167,6 +179,12 @@ $(document).ready(function() {
       enabled: true
     }
   });
+
+
+
+
+
+
 
 
 
