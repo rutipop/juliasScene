@@ -94,40 +94,16 @@ a:hover {
   color: var(--my-pink);
 }
 
-/* this code makes navbar apear on hover */
-/*
-.navbar .nav-item .dropdown-menu {
-  display: none;
-}
-
-.navbar .nav-item:hover .nav-link {
-  color: #fff;
-}
-
-.navbar .nav-item:hover .dropdown-menu {
-  display: block;
-}
-
-.navbar .nav-item .dropdown-menu {
-  margin-top: 0;
-}
- */
 .dropdown-menu {
   min-width: 0.5rem;
   padding: 0;
   background-color: black;
   border: none;
   margin-top: 0
-    /* display:block;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s; */
 }
 
 .dropdown-menu:hover {
   background-color: black;
-  /* margin-top: 0;
-  border-top: 0; */
 }
 
 .white-hamburger {
@@ -249,9 +225,7 @@ a:hover {
 /* ABOUT */
 .about-img {
   width: 28rem;
-  /* padding: 2rem; */
   border-radius: 1rem;
-  /* box-shadow:         2px 2px 4px 5px rgba(0, 0, 0, 0.2);  */
 }
 
 .about-text {
@@ -271,13 +245,35 @@ a:hover {
 /* FOOTER */
 .social-footer {
   background-color: black;
-  padding: 1.2rem 1rem;
+  padding: 1.7rem 1rem;
   text-align: right;
   clear: both;
   position: relative;
-  height: 3.6rem;
-  margin-top: -3.6rem;
 }
+.design-by {
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  color: grey;
+  line-height: 1.5;
+  margin-top: 0;
+
+}
+
+
+.design-by a{
+  color: #656565;
+  font-size: 1rem;
+
+}
+
+.design-by a:hover{
+  text-decoration: none;
+  color:var(--my-pink);
+}
+
+
 
 .social-footer i {
   margin: 0 1rem;
@@ -287,7 +283,6 @@ a:hover {
 }
 
 .social-footer i:hover {
-  /* color: white; */
   -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -311,7 +306,6 @@ a:hover {
 }
 
 .contact-input {
-  /* width: 100%; */
   width: 25rem;
   margin-top: 1rem;
   line-height: 2;
@@ -336,7 +330,6 @@ a:hover {
   margin-right: auto;
   padding-bottom: 8rem;
   font-weight: 500;
-  /* font-family: 'Dosis', sans-serif; */
 }
 
 .icons-row {
@@ -386,7 +379,9 @@ a:hover {
   text-decoration: none;
 }
 
-/* GALLERY */
+/* -------------------------------------------------------------------------- */
+/* GALLERY :*/
+
 .gallery-container {
   display: flex;
   width: 100%;
@@ -513,8 +508,21 @@ a:hover {
   .social-footer {
     text-align: center;
     padding: 3rem 1rem;
-    height: 9rem;
+    /* height: 16rem; */
   }
+
+  .design-by{
+    /* visibility: hidden; */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .design-by a{
+    /* visibility: hidden; */
+    font-size: 1.6rem;
+  }
+
 
   .contact-input {
     width: 40rem;
