@@ -75,9 +75,7 @@ body{
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-.shop-description:hover{
-  box-shadow: 2px 4px 22px rgba(0, 0, 0, 0.6);
-}
+
 
 
 .see-icon {
@@ -106,11 +104,6 @@ body{
 
 
 
-.abuot-shop-btn:hover, .abuot-shop-btn:focus {
-  background-color: var(--my-pink);
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
-}
-
 
 
 
@@ -129,8 +122,8 @@ body{
   border-radius: 0.4rem;
   z-index: 10;
   background-color: white;
-  width: 80%;
-  height: 86%;
+  width: 65rem;
+  height: 40rem;
   box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.16),0 0.1rem 0.4rem 0 rgba(0,0,0,0.12);
 }
 
@@ -148,10 +141,7 @@ body{
   /* font-weight: bold; */
 }
 
-.modal-description-section .close-button:hover {
-  color: var(--my-pink);
-  border: none;
-}
+
 
 #my-overlay {
   position: fixed;
@@ -169,7 +159,6 @@ body{
   opacity: 1;
   pointer-events: all;
 }
-
 
 
 
@@ -215,38 +204,6 @@ body{
   background-color: #fff;
 }
 
-
-.el-wrapper:hover .h-bg {
-  left: 0;
-}
-
-.el-wrapper:hover .price {
-  opacity: 0;
-}
-
-.el-wrapper:hover .see-more {
-  left: 50%;
-}
-
-.el-wrapper:hover .img {
-  webkit-filter: blur(7px);
-  -o-filter: blur(7px);
-  -ms-filter: blur(7px);
-  filter: blur(7px);
-  filter: progid:DXImageTransform.Microsoft.Blur(pixelradius= '7', shadowopacity='0.0')) opacity: 0.4;
-}
-
-.el-wrapper:hover .info-inner {
-  bottom: 155px;
-}
-
-.el-wrapper:hover .a-size {
-  -webkit-transition-delay: 300ms;
-  -o-transition-delay: 300ms;
-  transition-delay: 300ms;
-  bottom: 50px;
-  opacity: 1;
-}
 
 .el-wrapper .box-down {
   width: 100%;
@@ -455,7 +412,7 @@ body{
 
 .photo-section {
   padding: 1rem;
-  width: 60%;
+  /* width: 60%; */
   text-align: center;
   float: left;
   border-right: 2px solid #efefef;
@@ -472,16 +429,20 @@ body{
 
 
 .item-cell{
-  margin-right: 8.3rem;
+  margin-right: 15rem;
   height: 35rem;
 }
+
+
 .modal-description-section {
 
   padding: 0 1rem;
   float: left;
-  width: 40%;
+  height: 40rem;
+  /* width: 40%; */
   /* border-left: 2px solid #efefef; */
 }
+
 
 .modal-description-section h1 {
   color: #515151;
@@ -531,11 +492,70 @@ body{
   font-weight: 500;
 }
 
-.modal-description-section button:hover {
-  border: 0.1rem solid var(--my-pink);
-  color: var(--my-pink);
-  cursor: pointer;
+
+
+
+
+/* DISABLE HOVER FOR TOUCH SCREENS: */
+
+
+@media (hover: hover) and (pointer: fine) {
+
+  .modal-description-section .close-button:hover {
+    color: var(--my-pink);
+    border: none;
+  }
+
+  .abuot-shop-btn:hover, .abuot-shop-btn:focus {
+    background-color: var(--my-pink);
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+
+
+  .modal-description-section button:hover {
+    border: 0.1rem solid var(--my-pink);
+    color: var(--my-pink);
+    cursor: pointer;
+  }
+
+  .shop-description:hover{
+    box-shadow: 2px 4px 22px rgba(0, 0, 0, 0.6);
+  }
+
+  .el-wrapper:hover .h-bg {
+    left: 0;
+  }
+
+  .el-wrapper:hover .price {
+    opacity: 0;
+  }
+
+  .el-wrapper:hover .see-more {
+    left: 50%;
+  }
+
+  .el-wrapper:hover .img {
+    webkit-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+    filter: progid:DXImageTransform.Microsoft.Blur(pixelradius= '7', shadowopacity='0.0')) opacity: 0.4;
+  }
+
+  .el-wrapper:hover .info-inner {
+    bottom: 155px;
+  }
+
+  .el-wrapper:hover .a-size {
+    -webkit-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+    bottom: 50px;
+    opacity: 1;
+  }
+
 }
+
 
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -565,8 +585,13 @@ body{
   }
 
   .my-modal {
-    width: 86%;
-    height: 89%;
+    width: 80%;
+    height: 85%;
+
+
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+
   }
 
 
@@ -583,9 +608,7 @@ body{
   } */
 
   .modal-description-section .close-button {
-
-    font-size: 5rem;
-
+    visibility: hidden;
   }
 
 
@@ -594,6 +617,7 @@ body{
     width: 100% !important;
     height: 60%;
     padding: 1rem;
+    border: none !important;
     margin: 0;
   }
 
@@ -607,8 +631,8 @@ body{
   .modal-description-section {
     width: 100% !important;
     height: 40%;
-    border: none;
-    padding: 2rem 4rem;
+    border: none !important;
+    padding: 0 2rem 1rem;
 
   }
 
@@ -637,12 +661,12 @@ body{
 
 
   .el-wrapper .img {
-    width: 100%;
+    max-width: 100%;
 
   }
 
   .el-wrapper .box-up {
-    height:90%;
+    max-height:90%;
 
   }
 
