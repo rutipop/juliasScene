@@ -283,7 +283,7 @@ body{
   /* ease-out */
   position: absolute;
   width: 100%;
-  bottom: -1rem;
+  bottom: -0.5rem;
 }
 
 .info-inner .p-company,
