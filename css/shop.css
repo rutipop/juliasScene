@@ -283,7 +283,7 @@ body{
   /* ease-out */
   position: absolute;
   width: 100%;
-  bottom: -0.5rem;
+  bottom: 0rem;
 }
 
 .info-inner .p-company,
@@ -321,7 +321,7 @@ body{
   bottom: -20px;
   font-family: 'Dosis', sans-serif;
 
-  color: #828282;
+  color: #1a1a1a;
   opacity: 0;
 }
 
@@ -459,8 +459,8 @@ body{
 .modal-description-section h1 {
   color: #515151;
   font-weight: 300;
-  padding-top: 1rem;
-  margin: 0;
+  /* padding: 2rem auto; */
+  margin: 1rem auto;
   font-size: 3rem;
   font-weight: 300;
 }
@@ -482,7 +482,7 @@ body{
 
 .modal-description-section p {
   font-size: 1.3rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   color: #727272;
   padding: 1.2rem 0;
   margin: 0;
@@ -675,14 +675,23 @@ body{
 
 
   .el-wrapper .img {
-    /* max-width: 27rem; */
+    max-width: 40rem;
 
+  }
+  .img-info{
+    visibility: hidden;
   }
 
   .el-wrapper .box-up {
-    max-height:90%;
+    /* height:38rem; */
 
   }
+
+.el-wrapper .box-up-art{
+  height:33rem;
+}
+
+
 
   .info-inner .p-name {
     font-size: 2rem;
