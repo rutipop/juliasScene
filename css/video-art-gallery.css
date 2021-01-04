@@ -24,7 +24,7 @@ body {
   min-width: 50%;
   max-width: 55%;
   background: #000;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .video-gallery .gallery-item img {
@@ -39,7 +39,7 @@ body {
 }
 
 .video-gallery .gallery-item .gallery-item-caption {
-  padding: 2em;
+  padding: 1rem 2rem 0;
   color: #fff;
   text-transform: uppercase;
   font-size: 1em;
@@ -109,6 +109,16 @@ body {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+
+.play-button{
+  /* text-align: right; */
+  /* margin: 0 1rem 2rem 29rem; */
+  /* display: inline-block; */
+  float: right;
+  color: #656565;
+}
+
 
 @media screen and (max-width: 50em) {
   .video-gallery .gallery-item {

@@ -472,13 +472,7 @@ body{
   font-weight: 500;
 }
 
-.modal-description-section h4 {
-  margin: 0;
-  color: #727272;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1rem;
-}
+
 
 .modal-description-section p {
   font-size: 1.3rem;
@@ -658,9 +652,7 @@ body{
   }
 
 
-  .modal-description-section h4 {
-    font-size: 2.5rem;
-  }
+
 
   .modal-description-section p {
     font-size: 2.5rem;
