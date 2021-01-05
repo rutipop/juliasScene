@@ -1,68 +1,32 @@
 /* APPAREL SHOP */
-body{
+body {
   font-family: 'Dosis', sans-serif;
-
 }
-
-.enter-shop{
-  margin: 10rem 2rem 0rem;
-}
-.shop-logo-img2 {
-  width: 30rem;
-  max-width: 100%;
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.shop-description2{
-  padding: 2rem;
-  margin: 0;
-  max-width: 100%;
-  text-align: left;
-  font-family: 'Dosis', sans-serif;
-  line-height: 1.3;
-  font-size: 1.5rem;
-  border-left: 2px solid black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.shop-row{
-  margin:  2rem 1rem 3rem;
-}
-
-
 
 .shop-logo-img {
-  padding: 5rem 0 0;
+  width: 25rem;
+  max-width: 100%;
   display: block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  /* transform: scale(0.6); */
-  width: 25rem;
-  /* width: 30rem; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 4rem auto 1rem;
 }
 
-.art-logo{
+.hebrew-product-description {
+  margin-right: 2rem;
+}
+
+.shop-row {
+  margin: 2rem 1rem 3rem;
+}
+
+.art-logo {
   width: 40rem;
   margin-bottom: 0;
 }
 
-
-.shop-description{
-  /* display: none; */
+.shop-description {
   padding: 2rem;
   margin: 0.3rem auto 2rem;
   max-width: 80%;
@@ -70,49 +34,32 @@ body{
   font-family: 'Dosis', sans-serif;
   line-height: 1.3;
   font-size: 1.5rem;
-  border: 2px solid black;
-  border-radius: 4px;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /* border-radius: 4px; */
+  /* box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4); */
 }
-
-
-
 
 .see-icon {
   margin-right: 0.5rem;
 }
 
-
-.abuot-shop-btn{
+.abuot-shop-btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
   width: 15rem;
-  background-color: black ;
+  background-color: black;
   color: white;
   border: none;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   margin: 0.5rem auto 2rem;
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* GENERAL MODAL*/
-
 .my-modal {
   position: fixed;
   top: 50%;
@@ -124,7 +71,7 @@ body{
   background-color: white;
   width: 65rem;
   height: 41rem;
-  box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.16),0 0.1rem 0.4rem 0 rgba(0,0,0,0.12);
+  box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.16), 0 0.1rem 0.4rem 0 rgba(0, 0, 0, 0.12);
 }
 
 .my-modal.active {
@@ -140,8 +87,6 @@ body{
   line-height: 1rem;
   /* font-weight: bold; */
 }
-
-
 
 #my-overlay {
   position: fixed;
@@ -159,8 +104,6 @@ body{
   opacity: 1;
   pointer-events: all;
 }
-
-
 
 /* /--------------------------------------------------------------------------------/ */
 /* /--------------------------------------------------------------------------------/ */
@@ -203,7 +146,6 @@ body{
   margin: 1rem auto;
   background-color: #fff;
 }
-
 
 .el-wrapper .box-down {
   width: 100%;
@@ -267,7 +209,6 @@ body{
   height: 100%;
   /* background-color: #464646; */
   background-color: #656565;
-
 }
 
 .info-inner {
@@ -299,7 +240,6 @@ body{
 
 .info-inner .p-company {
   font-family: 'Dosis', sans-serif;
-
   font-size: 12px;
   text-transform: uppercase;
   color: #8c8c8c;
@@ -320,7 +260,6 @@ body{
   width: 100%;
   bottom: -20px;
   font-family: 'Dosis', sans-serif;
-
   color: #1a1a1a;
   opacity: 0;
 }
@@ -340,7 +279,6 @@ body{
   top: 0;
   left: 0;
   font-family: 'Dosis', sans-serif;
-
   font-weight: 700;
   cursor: pointer;
 }
@@ -402,11 +340,11 @@ body{
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* /--------------------------------------------------------------------------------/ */
-/* /--------------------------------------------------------------------------------/ */
-/* /--------------------------------------------------------------------------------/ */
-/* /--------------------------------------------------------------------------------/ */
 
+/* /--------------------------------------------------------------------------------/ */
+/* /--------------------------------------------------------------------------------/ */
+/* /--------------------------------------------------------------------------------/ */
+/* /--------------------------------------------------------------------------------/ */
 /* // MODAL CARD DETAILS : */
 .modal-nav {
   width: 100%;
@@ -423,7 +361,6 @@ body{
   text-align: center;
   float: left;
   border-right: 2px solid #efefef;
-
 }
 
 .info-img {
@@ -433,12 +370,9 @@ body{
   max-height: 80%;
 }
 
-
-.item-cell{
+.item-cell {
   margin-right: 15rem;
   /* height: 30rem; */
-
-
 }
 
 .flickity-slider {
@@ -447,14 +381,12 @@ body{
 }
 
 .modal-description-section {
-
   padding: 0 1rem;
   float: left;
   height: 40rem;
   /* width: 40%; */
   /* border-left: 2px solid #efefef; */
 }
-
 
 .modal-description-section h1 {
   color: #515151;
@@ -471,8 +403,6 @@ body{
   text-transform: uppercase;
   font-weight: 500;
 }
-
-
 
 .modal-description-section p {
   font-size: 1.3rem;
@@ -493,20 +423,13 @@ body{
   text-transform: uppercase;
   /* width: 17rem; */
   font-family: inherit;
-  margin-right: 0.35rem;
+  /* margin-right: 0.35rem; */
   transition: all 0.3s ease;
   font-weight: 500;
 }
 
-
-
-
-
 /* DISABLE HOVER FOR TOUCH SCREENS: */
-
-
 @media (hover: hover) and (pointer: fine) {
-
   .modal-description-section .close-button:hover {
     color: var(--my-pink);
     border: none;
@@ -517,15 +440,14 @@ body{
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.08);
   }
 
-
   .modal-description-section button:hover {
     border: 0.1rem solid var(--my-pink);
     color: var(--my-pink);
     cursor: pointer;
   }
 
-  .shop-description:hover{
-    box-shadow: 2px 4px 22px rgba(0, 0, 0, 0.6);
+  .shop-description:hover {
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
   }
 
   .el-wrapper:hover .h-bg {
@@ -545,7 +467,7 @@ body{
     -o-filter: blur(7px);
     -ms-filter: blur(7px);
     filter: blur(7px);
-    filter: progid:DXImageTransform.Microsoft.Blur(pixelradius= '7', shadowopacity='0.0')) opacity: 0.4;
+    filter: progid:DXImageTransform.Microsoft.Blur(pixelradius='7', shadowopacity='0.0')) opacity: 0.4;
   }
 
   .el-wrapper:hover .info-inner {
@@ -559,66 +481,43 @@ body{
     bottom: 50px;
     opacity: 1;
   }
-
 }
 
-
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-
 /* MODAL ON MOBILE SETUP: */
+@media (max-width:990px) {
 
-
-
-@media (max-width:990px)
-{
-
-  .shop-description2{
-    font-size: 3rem;
+  .shop-description {
+    max-width: 95%;
+    font-size: 2.5rem;
     border: 2px solid black;
-    border-radius: 4px;
-    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
   }
 
-
-  .item-cell .item-cell-img{
+  .item-cell .item-cell-img {
     width: 35rem;
   }
 
-
-  .item-cell{
+  .item-cell {
     /* height: 55rem; */
-
   }
 
   .my-modal {
     width: 80%;
     height: 85%;
-
-
     max-height: calc(100vh - 200px);
     overflow-y: auto;
-
   }
-
 
   .shop-logo-img {
-  padding: 7rem 0 2rem;
-  width: 40rem;
+    margin-top: 8rem;
+    width: 35rem;
   }
-
-
-  /* .shop-description{
-    max-width: 90%;
-    font-size: 3rem;
-
-  } */
 
   .modal-description-section .close-button {
     /* visibility: hidden; */
     font-size: 6rem;
   }
-
 
   .photo-section {
     text-align: center;
@@ -630,10 +529,9 @@ body{
   }
 
   .info-img {
-    padding: 0 ;
+    padding: 0;
     max-width: 20rem;
     float: none;
-
   }
 
   .modal-description-section {
@@ -641,49 +539,41 @@ body{
     height: 40%;
     border: none !important;
     padding: 0 2rem 1rem;
-
   }
 
   .modal-description-section h1 {
     font-size: 4rem;
   }
+
   .modal-description-section h2 {
     font-size: 4rem;
   }
 
-
-
-
   .modal-description-section p {
     font-size: 2.5rem;
     line-height: 1.2;
-
   }
 
   .modal-description-section button {
     font-size: 2rem;
   }
 
-
-
   .el-wrapper .img {
     max-width: 40rem;
-
   }
-  .img-info{
-    visibility: hidden;
+
+  .img-info {
+    /* visibility: hidden; */
   }
 
   .el-wrapper .box-up {
-    /* height:38rem; */
+    height:37.5rem;
 
   }
 
-.el-wrapper .box-up-art{
-  height:33rem;
-}
-
-
+  .el-wrapper .box-up-art {
+    height: 36rem;
+  }
 
   .info-inner .p-name {
     font-size: 2rem;
@@ -693,23 +583,18 @@ body{
     font-size: 2rem;
   }
 
-
+  .art-logo {
+    width: 50rem;
+  }
 }
 
-
-
-
-@media (min-width: 990px) and (max-width: 1024px)
-{
-
+@media (min-width: 990px) and (max-width: 1024px) {
   .el-wrapper .img {
     width: 18rem;
   }
 }
 
-@media (min-width: 990px) and (max-width: 1024px) and (orientation: landscape)
-{
-
+@media (min-width: 990px) and (max-width: 1024px) and (orientation: landscape) {
   .el-wrapper .img {
     width: 18rem;
   }

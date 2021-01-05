@@ -27,10 +27,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
 
 
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;700;900&display=swap" rel="stylesheet">
 
 
   <!-- FONT AWSOME -->
@@ -47,47 +47,39 @@
 <body>
 
   <section id="my-nav-bar">
-    <nav class="my-nav navbar navbar-expand-lg">
-      <a class="navbar-brand " href="index.html">THE SCENE OF JULIA</a>
+    <nav class="my-nav navbar navbar-expand-lg  ">
+      <a class="navbar-brand " href="index-hebrew.html">THE SCENE OF JULIA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fas fa-bars white-hamburger fa-2x"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto ">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              SHOP
+            <a class="nav-link dropdown-toggle hebrew-page" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              חנות
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="apparel-shop.html">APPAREL</a></li>
-              <li><a class="dropdown-item" href="art-shop.html">ART</a></li>
+              <li><a class="dropdown-item hebrew-page" href="apparel-shop-hebrew.html">ביגוד</a></li>
+              <li><a class="dropdown-item hebrew-page" href="art-shop-hebrew.html">אומנות</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="video-art.html">DANCE ART</a>
+            <a class="nav-link hebrew-page" href="video-art-hebrew.html">וידאו ארט</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link same-page" href="#about">ABOUT</a>
+            <a class="nav-link hebrew-page same-page" href="#about">עלי</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link same-page" href="#contact">CONTACT</a>
+            <a class="nav-link hebrew-page same-page" href="#contact">צור קשר</a>
           </li>
-          <li  class="nav-item dropdown">
-            <a value="english" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               <i class="fas fa-globe-africa fa-md"></i>&nbspEN
+          <li class="nav-item dropdown">
+            <a value="english" class="nav-link dropdown-toggle hebrew-page" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-globe-africa fa-md"></i>&nbspHE
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a  value="hebrew" class="dropdown-item" href="index-hebrew.html"> <i class="fas fa-globe-africa fa-md"></i>&nbspHE</a>
+              <a value="hebrew" class="dropdown-item hebrew-page" href="index.html"> <i class="fas fa-globe-africa fa-md"></i>&nbspEN</a>
             </div>
           </li>
-
-
-          <!-- <select id="langselector" onchange="loadlang()">
-
-
-            <option value="english">EN</option>
-            <option value="hebrew">HE</option>
-          </select> -->
 
         </ul>
       </div>
@@ -97,25 +89,6 @@
 
 
 
-
-
-
-
-  <!-- <script>
-    function loadlang() {
-      var lng = document.getElementById("langselector").value;
-      var about_content = document.getElementById("about-text-content");
-      switch (lng) {
-        case "english":
-          about_content.innerHTML = "mbk";
-          break;
-        case "hebrew":
-          about_content.innerHTML = "llllllllll";
-          break;
-      }
-    }
-  </script>
- -->
 
 
 
@@ -144,7 +117,7 @@
     <div class="small-seperator"></div>
 
     <!--SHOP CATEGORIES-->
-    <h1 class="category-title" data-aos="zoom-in-up">SHOP</h1>
+    <h1 class="category-title hebrew-title" data-aos="zoom-in-up">חנות</h1>
     <hr>
     <div class="small-seperator"></div>
 
@@ -162,54 +135,61 @@
     <!-- ------------------------------------------------------------------- -->
 
     <!-- ABOUT -->
-    <div class="seperator"></div>
+    <div class="seperator "></div>
 
-    <section id="about">
-      <h1 class="category-title" data-aos="zoom-in-up">Julia Galya Cohen </h1>
+    <section id="about" dir="rtl">
+      <h1 class="category-title hebrew-title" data-aos="zoom-in-up">ג’וליה גליה כהן</h1>
       <hr>
       <img class="about-img" data-aos="zoom-in-up" src="images/galya-about-img.jpeg" alt="">
-      <p id="about-text-content" class="about-text" data-aos="zoom-in-up">
+      <p id="about-text-content" class="about-text hebrew-page right-text" data-aos="zoom-in-up">
         <br>
-        <span class="highlited-text">Welcome to <br>
-          "Julia's Scene" Dance | Art | Fashion</span>
+        <span class="highlited-text">ברוכים הבאים ל״סצנה של ג׳וליה״<br>
+          Dance | Art | Fashion</span>
         <br>
-        The site gives you a glimpse into my scene - a scene that present multidisciplinary art which includes dance, painting and fashion.
-        All of these were born by a special worldview that sees art as a holistic field, that has different representations, and therefor reflected in a whole range of themes.
-        The diversity in "doing" all above is based on the perception of which we live in a world where we must create, breathe and move.
-        ‏The brand advocates collaborations, and invites artists from a variety of arts to produce together innovative art as part of the scene.
+        האתר מאפשר לכם הצצה אל תוך הסצנה שלי – סצנה שיש בה אומנות מולטידיסציפלינרית הכוללת מחול, ציור ואופנה.
+        <br>
+        כל אלה נולדו במסגרת תפיסת עולם הרואה באומנות תחום הוליסטי, שיש לו ייצוגים שונים, והוא בא לידי ביטוי במכלול שלנושאים.
+        <br>
+        לצד הגיוון שבעשייה, המעטפת היא אחת ומשותפת לכל האלמנטים– אנחנו חיים בעולם שבו חובה עלינו ליצור, לנשום ולנוע.
+        <br>
+        <span class="highlited-text">
+        המותג דוגל בשיתופי פעולה, ומזמין אמנים ממגוון תחומים לייצר יחד אומנות חדשנית כחלק מהסצינה.
+        </span>
         <br><br>
-        <span class="highlited-text">Who am I?</span>
+        <span class="highlited-text">קצת על עצמי</span>
         <br>
-        Born in 87, married to Eldad and mother to Lenny.
+        ילידת 87, נשואה לאלדד ואמא ללני
         <br>
-        A Dancer. An artist. A creator.
+        רקדנית, אמנית, יוצרת
         <br><br>
-        <span class="highlited-text">Dancer</span>
+        <span class="highlited-text">רקדנית</span>
         <br>
-        For the past 17 years I have been performing on stages, in Israel and abroad.
-        I started my studies at Nadine Boomer's Academy of Dance, and in 2000 I became a lead dancer in the dance troupe "Nadine Animato".
-        The group performed in Israel and abroad at many large festivals, including in Germany, the USA and the Netherlands.
+        מזה 17 שנים אני מופיעה על במות, בארץ ובחו"ל.
+        התחלתי את לימודיי במסגרת "האקדמיה למחול" של נדין בומר, ובשנת 2000 הפכתי לסולנית מרכזית בלהקת המחול ״נדיןאנימטו". סגנונה הייחודי של הלהקהשילב מחול ותיאטרון...
+        במהלך השנים הופיעתי עם הלהקה בארץ ובחו"ל בפסטיבלים רבים וגדולים, לרבות בגרמניה, ארה"ב והולנד.
         <br><br>
-        <span class="highlited-text">Artist</span>
+        <span class="highlited-text">אמנית</span>
         <br>
-        In recent years I have developed the art of movement called "Nature Mind".
-        The method introduces the new language of movement through characters and short stories, telling their story in silent movement.
-        The method emphasizes organic movement, flexibility and improvisation, and it brings to the stage the value of the imagination as a central value to the work.
-        The method can be learned in a variety of workshops or individually frontally and zoom.
+        בשנים האחרונות פיתחתי את אומנות התנועה הנקראת Nature Mind .
+        השיטה מציגה שפה חדשה של תנועה באמצעות דמויות וסיפורים קצרים, המספרים את הסיפור שלהם בתנועה אילמת.
+        השיטה שמה דגש על תנועה אורגנית, גמישות ואימפרוביזציה, והיא מביאה לבמה את ערך הדמיון כערך מרכזי ליצירה.
+        ניתן ללמוד את השיטה במגוון סדנאות או באופן פרטני פרונטלית ובזום. <br><br>
+        <span class="highlited-text">יוצרת</span>
+        <br>
+        ריקוד טוב ותנועה נכונה צריכים גמישות, שחרור ונוחות. במיוחד בשל כך עיצבתי ליין של בגדי מחול וספורט לצעירותולמבוגרות.
+        הקולקציה מיוצרת בישראל, באיכויות הגבוהות ביותר, והיא מאפשרת לכל מי שלובשת אותה הרמוניה מוחלטת עם הגוף.
         <br><br>
-        <span class="highlited-text">Creator</span>
 
+        באתר שלפניכם תוכלו גם למצוא את קולקציית הציורים שלי, פרי ידי, שמציגה דמויות מרהיבות וצבעוניות.
+        אם התחברתם – זה המקום להזמין ולהתחדש.
+        <br><br>
+        זכרו כי
+        <span style="font-style: italic;">" הדמיון הוא תחילתה של היצירה" </span>
+        (ג'ורג' ברנרד שו)
 
-        <br>
-        Good dance and proper movement need flexibility, release and comfort. Mostly because of this, I designed a collection of dance and sportswear outfits, for teenagers and elderly women.
-        The collection is made in Israel, in the highest qualities, and it allows everyone who wears it feeling complete harmony with her body.
         <br><br>
-        At the site, you will also find my collection of paintings, created by me, which features spectacular and colorful figures.
-        If you find them suitable - this is the place to order and renew.
-        <br><br>
-        Remember that<span style="font-style: italic;">" imagination is the beginning of creation" </span> (George Bernard Shaw)
-        <br><br>
-        All yours, Julia Galya Cohen.
+        שלכם ג׳וליה גליה כהן
+
       </p>
 
 
@@ -220,7 +200,7 @@
     <div class="seperator"></div>
 
     <!-- MINI GALLERY -->
-    <h1 class="category-title" data-aos="zoom-in-up">Gallery</h1>
+    <h1 class="category-title hebrew-title" data-aos="zoom-in-up">גלריה</h1>
     <hr>
     <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
       <div class="gallery-cell"><img src="images/gallery/g1.png"></div>
@@ -251,22 +231,22 @@
 
     <section id="contact">
 
-      <h1 class="category-title" data-aos="zoom-in-up">Contact </h1>
+      <h1 class="category-title hebrew-title" data-aos="zoom-in-up">צרו קשר </h1>
       <hr>
-      <p data-aos="zoom-in-up">
-        Do you have any questions? Interested in purchasing?
+      <p data-aos="zoom-in-up" dir="rtl">
+        יש לכם שאלות? מעוניינים לקנות מהחנות?
         <br>
-        Do not hesitate to contact me directly.
+        אל תהססו ליצור קשר ישירות.
       </p>
 
-      <div class="row icons-row">
+      <div class="row icons-row hebrew-page">
         <div class="col-lg-4">
           <i class="fas fa-map-marker-alt fa-2x contact-little-div"></i>
-          <p class="contact-little-text">Israel</p>
+          <p class="contact-little-text">ישראל</p>
         </div>
         <div class="col-lg-4">
           <i class="fas fa-phone mt-4 fa-2x contact-little-div"></i>
-          <p class="contact-little-text">+972 52-8899773</p>
+          <p class="contact-little-text">052-8899773</p>
         </div>
         <div class="col-lg-4">
           <a class="email-link" href="mailto:juliagalyacohenart@gmail.com">
@@ -276,12 +256,12 @@
         </div>
       </div>
 
-      <div class="contact-section">
-        <input id="name-contacter" class="contact-input" type="text" name="name"><br>Name<br>
-        <input id="subject" class="contact-input" type="text" name="subject"><br>Subject<br>
+      <div class="contact-section hebrew-page">
+        <input id="name-contacter" class="contact-input" type="text" name="name"><br>שם<br>
+        <input id="subject" class="contact-input" type="text" name="subject"><br>נושא<br>
         <textarea id="msg" class="contact-input message-input" type="text" name="body" size="50"></textarea>
-        <br>Your Message<br>
-        <a id="send-contact" class="btn btn-primary contact-btn">Send</a>
+        <br>הודעה<br>
+        <a id="send-contact" class="btn btn-primary contact-btn">שלח</a>
       </div>
     </section>
 

@@ -8,28 +8,31 @@
 
 $(document).ready(function() {
 
-// ------------------------------------------------------------------------
-// NAVBAR:
 
-  $('.navbar-nav>li>.same-page').on('click', function(){
-      $('.navbar-collapse').collapse('hide');
+
+
+  // ------------------------------------------------------------------------
+  // NAVBAR:
+
+  $('.navbar-nav>li>.same-page').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
   });
-// ------------------------------------------------------------------------
+  // ------------------------------------------------------------------------
 
-// ------------------------------------------------------------------------
-// SEND EMAIL:
+  // ------------------------------------------------------------------------
+  // SEND EMAIL:
 
-  $('#send-contact').click(function(){
-    var subject_input= $('#subject').val();
-    var msg_input= $('#msg').val();
-    var name_input= $('#name-contacter').val();
+  $('#send-contact').click(function() {
+    var subject_input = $('#subject').val();
+    var msg_input = $('#msg').val();
+    var name_input = $('#name-contacter').val();
 
 
-      $(location).attr('href', 'mailto:juliagalyacohenart@gmail.com?subject='
-                               + encodeURIComponent(subject_input)
-                               + "&body="
-                               + encodeURIComponent("This message was sent from the julia's scene site by:\n"+ name_input+ "\nand the message is:\n" +msg_input)
-      );
+    $(location).attr('href', 'mailto:juliagalyacohenart@gmail.com?subject=' +
+      encodeURIComponent(subject_input) +
+      "&body=" +
+      encodeURIComponent("This message was sent from the julia's scene site by:\n" + name_input + "\nand the message is:\n" + msg_input)
+    );
   });
 
   // ------------------------------------------------------------------------
@@ -188,18 +191,42 @@ $(document).ready(function() {
 
   //DANCE ART PAGE:
 
-  $('.video-gallery').magnificPopup({
-    delegate: 'a',
-    type: 'iframe',
-    gallery: {
-      enabled: true
-    }
+  // $('.video-gallery').magnificPopup({
+  //   delegate: 'a',
+  //   type: 'iframe',
+  //   gallery: {
+  //     enabled: true
+  //   }
+  // });
+
+
+  // alert("fffff");
+
+
+
+
+
+  var url1 = $("#video1").attr('src');
+  var url2 = $("#video2").attr('src');
+
+  $("#playModal1").on('hide.bs.modal', function() {
+    $("#video1").attr('src', '');
   });
 
 
+  $("#playModal1").on('show.bs.modal', function() {
+    $("#video1").attr('src', url1);
+  });
 
 
+  $("#playModal2").on('hide.bs.modal', function() {
+    $("#video2").attr('src', '');
+  });
 
+
+  $("#playModal2").on('show.bs.modal', function() {
+    $("#video2").attr('src', url2);
+  });
 
 
 
