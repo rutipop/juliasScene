@@ -22,7 +22,7 @@ body {
   min-width: 50%;
   max-width: 55%;
   background: #000;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .video-gallery .gallery-item img {
@@ -108,7 +108,10 @@ body {
   /* text-align: right; */
   /* margin: 0 1rem 2rem 29rem; */
   /* display: inline-block; */
+
   float: right;
+  right: 1rem;
+  bottom: 1rem;
   color: #656565;
 }
 

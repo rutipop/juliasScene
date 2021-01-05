@@ -5,6 +5,10 @@
   --common-font: 'Lexend Exa';
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 main {
   background: white;
   position: relative;
@@ -475,6 +479,17 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 /*   MEDIA CHANGES */
 @media (max-width:990px) {
+
+#my-nav-bar{
+  background: black;
+}
+
+.navbar-brand {
+  opacity: 1;
+  color: var(--my-pink);
+  /* font-family: var(--common-font), sans-serif;
+  font-size: 1.7rem; */
+}
   .viewport-header .title-header {
     font-size: 4rem;
     letter-spacing: 1rem;
