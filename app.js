@@ -182,47 +182,29 @@ $(document).ready(function() {
 
   //DANCE ART PAGE:
 
-  // $('.video-gallery').magnificPopup({
-  //   delegate: 'a',
-  //   type: 'iframe',
-  //   gallery: {
-  //     enabled: true
-  //   }
-  // });
 
-
-  // alert("fffff");
-
-
-
-
-
-  var url1 = $("#video1").attr('src');
-  var url2 = $("#video2").attr('src');
-
-  $("#playModal1").on('hide.bs.modal', function() {
-    $("#video1").attr('src', '');
+  var $videoSrc;
+  $('.video-btn').click(function() {
+    $videoSrc = $(this).data("src");
   });
-
-
-  $("#playModal1").on('show.bs.modal', function() {
-    $("#video1").attr('src', url1);
-  });
-
-
-  $("#playModal2").on('hide.bs.modal', function() {
-    $("#video2").attr('src', '');
-  });
-
-
-  $("#playModal2").on('show.bs.modal', function() {
-    $("#video2").attr('src', url2);
-  });
+  console.log($videoSrc);
 
 
 
+  // when the modal is opened autoplay it
+  $('#myModal').on('shown.bs.modal', function(e) {
+
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+  })
 
 
+
+  // stop playing the youtube video when I close the modal
+  $('#myModal').on('hide.bs.modal', function(e) {
+    // a poor man's stop video
+    $("#video").attr('src', $videoSrc);
+  })
 
 
 
