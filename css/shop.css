@@ -428,6 +428,19 @@ body {
   font-weight: 500;
 }
 
+
+.size-chart{
+  text-align: center;
+  font-size: 1rem;
+  color:#515151;
+}
+
+.size-chart td{
+  padding: 0 0.8rem;
+}
+
+
+
 /* DISABLE HOVER FOR TOUCH SCREENS: */
 @media (hover: hover) and (pointer: fine) {
   .modal-description-section .close-button:hover {
@@ -514,6 +527,16 @@ body {
     width: 35rem;
   }
 
+
+  .size-chart{
+    font-size: 1.5rem;
+  }
+
+  /* .size-chart td{
+    padding: 0 0.8rem;
+  } */
+
+
   .modal-description-section .close-button {
     /* visibility: hidden; */
     font-size: 6rem;
@@ -542,16 +565,16 @@ body {
   }
 
   .modal-description-section h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .modal-description-section h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .modal-description-section p {
     font-size: 2.5rem;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   .modal-description-section button {
