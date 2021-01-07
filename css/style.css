@@ -460,14 +460,15 @@ a:hover {
 }
 
 .gallery {
+  /* width: 70rem; */
   background: white;
-  margin: auto 10%;
+  margin: auto 20%;
 }
 
 .gallery-cell {
   /* width: 25rem; */
   /* height: 30rem; */
-  margin-right: 10px;
+  margin-right: 25rem;
   background: white;
   counter-increment: gallery-cell;
 }
@@ -482,6 +483,10 @@ a:hover {
 
 #my-nav-bar{
   background: black;
+}
+
+.gallery {
+  margin: auto 10%;
 }
 
 .navbar-brand {
