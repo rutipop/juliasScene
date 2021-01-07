@@ -1,13 +1,4 @@
-// const bodyParser = require("body-parser")
-// const request = require("request");
-//
-// app.use(bodyParser.urlencoded({
-//   extended: true
-// }))
-
-
 $(document).ready(function() {
-
 
 
 
@@ -227,7 +218,6 @@ $(document).ready(function() {
   $("#playModal2").on('show.bs.modal', function() {
     $("#video2").attr('src', url2);
   });
-
 
 
 
