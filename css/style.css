@@ -5,8 +5,8 @@
   --common-font: 'Lexend Exa';
 }
 
-html, body{
-    overflow-x: hidden;
+html, body {
+  overflow-x: hidden;
 }
 
 main {
@@ -21,28 +21,22 @@ main {
 }
 
 .hebrew-page {
-  font-family: "Heebo",sans-serif !important;
+  font-family: "Heebo", sans-serif !important;
 }
 
-.right-text{
+.right-text {
   text-align: right !important;
-
 }
 
-
-.hebrew-title{
-  font-family: "Heebo",sans-serif !important;
+.hebrew-title {
+  font-family: "Heebo", sans-serif !important;
   font-weight: 700;
-
 }
 
 p {
   max-width: 80%;
   margin: 1rem auto;
-
 }
-
-
 
 .category-title {
   padding: 4rem 0 1rem;
@@ -109,7 +103,6 @@ hr.activated {
 /* .dropdown-toggle::after {
     content: none;
 } */
-
 .nav-link {
   margin: 0.5rem 0.5rem;
   color: white;
@@ -120,8 +113,6 @@ hr.activated {
 a:hover {
   color: var(--my-pink);
 }
-
-
 
 .dropdown-menu {
   min-width: 0.5rem;
@@ -148,8 +139,7 @@ a:hover {
   font-family: var(--common-font), sans-serif;
 }
 
-
-#langselector{
+#langselector {
   text-align: center;
   color: white;
   background-color: inherit;
@@ -159,10 +149,6 @@ a:hover {
   border: none;
   outline: none;
 }
-
-
-
-
 
 .dropdown-item:hover {
   color: var(--my-pink);
@@ -295,6 +281,7 @@ a:hover {
   clear: both;
   position: relative;
 }
+
 .design-by {
   text-decoration: none;
   text-align: left;
@@ -303,22 +290,17 @@ a:hover {
   color: grey;
   line-height: 1.5;
   margin-top: 0;
-
 }
 
-
-.design-by a{
+.design-by a {
   color: #656565;
   font-size: 1rem;
-
 }
 
-.design-by a:hover{
+.design-by a:hover {
   text-decoration: none;
-  color:var(--my-pink);
+  color: var(--my-pink);
 }
-
-
 
 .social-footer i {
   margin: 0 1rem;
@@ -378,7 +360,7 @@ a:hover {
 }
 
 .icons-row {
-  padding: 2rem 10rem;
+  padding: 2rem 20rem;
   color: black;
 }
 
@@ -426,7 +408,6 @@ a:hover {
 
 /* -------------------------------------------------------------------------- */
 /* GALLERY :*/
-
 .gallery-container {
   display: flex;
   width: 100%;
@@ -465,36 +446,67 @@ a:hover {
   margin: auto 20%;
 }
 
+
+
+
+
+
 .gallery-cell {
   /* width: 25rem; */
   /* height: 30rem; */
   margin-right: 25rem;
   background: white;
   counter-increment: gallery-cell;
+  visibility: hidden;
+
 }
 
 .flickity-slider {
   display: flex;
   align-items: center;
 }
+
+
+
+.flickity-slider>.gallery-cell {
+  visibility: visible;
+}
+
+.ratio-box {
+  position: relative;
+  height: 0;
+  display: block;
+  width: 100%;
+  /* padding-bottom is calculated and rendered in to HTML */
+}
+
+.ratio-box>* {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* -------------------------------------------------------------------------- */
 /*   MEDIA CHANGES */
 @media (max-width:990px) {
+  #my-nav-bar {
+    background: black;
+  }
 
-#my-nav-bar{
-  background: black;
-}
+  .gallery {
+    margin: auto 10%;
+  }
 
-.gallery {
-  margin: auto 10%;
-}
-
-.navbar-brand {
-  opacity: 1;
-  color: var(--my-pink);
-  /* font-family: var(--common-font), sans-serif;
+  .navbar-brand {
+    opacity: 1;
+    color: var(--my-pink);
+    /* font-family: var(--common-font), sans-serif;
   font-size: 1.7rem; */
-}
+  }
+
   .viewport-header .title-header {
     font-size: 4rem;
     letter-spacing: 1rem;
@@ -576,18 +588,17 @@ a:hover {
     /* height: 16rem; */
   }
 
-  .design-by{
+  .design-by {
     /* visibility: hidden; */
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
   }
 
-  .design-by a{
+  .design-by a {
     /* visibility: hidden; */
     font-size: 1.6rem;
   }
-
 
   .contact-input {
     width: 40rem;
