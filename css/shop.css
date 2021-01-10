@@ -393,7 +393,7 @@ body {
 
 
 
-.flickity-slider>.gallery-cell {
+.gallery-cell:first-child, .flickity-slider>.gallery-cell {
   visibility: visible;
 }
 
